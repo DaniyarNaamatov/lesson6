@@ -11,7 +11,7 @@ from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButt
 from tiktok import getCookie, getDownloadUrl, getDownloadID, getStatus
 import urllib.request
 
-TOKEN = 'ТОКЕН БОТА'
+TOKEN = '5249546721:AAFfr-boiU39UU_vnqrZMm9fFkBzoc6TyUc'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
