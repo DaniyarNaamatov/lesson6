@@ -13,7 +13,7 @@ def bench(func):
 def gen_list():
     big_list = []
     x = 1
-    while len(big_list) != 10000000:
+    while len(big_list) != 1000000000:
         big_list.append(x)
         x += 1
     return big_list

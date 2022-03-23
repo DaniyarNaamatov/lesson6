@@ -2,7 +2,7 @@ def get_list() -> list:
   return list(range(0,1_000_000, 2))
 
 class Solution:
-    def binarySearch(self,list,target):
+    def find_target(self,list,target):
         floor_index = -1
         ceiling_index = len(list)
         while floor_index + 1 < ceiling_index:
