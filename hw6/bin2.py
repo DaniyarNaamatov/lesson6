@@ -17,5 +17,5 @@ class Solution:
                 min_b = middle + 1
         return pop
 
-p = (Solution().find_target(get_list(), 545635))
+p = (Solution().find_target(get_list(), 54565))
 print(p)
