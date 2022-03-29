@@ -1,5 +1,5 @@
-def get_palindrome_no_less_than(n):
-    sn = str(n)
+def get_palindrome_no_less_than(x):
+    sn = str(x)
     if len(sn) % 2 == 0:
         half_sn = sn[ : len(sn)//2 : ]
         sn_new = half_sn + half_sn[::-1]
@@ -24,7 +24,7 @@ def get_palindrome_no_less_than(n):
     return int(sn_new)
 
 def main():
-    n = int(input('n = '))
+    n = int(input('x = '))
     res = get_palindrome_no_less_than(n + 1)
     print(res)
 main()
